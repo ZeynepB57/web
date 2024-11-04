@@ -1,0 +1,109 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Arka plan rengi */
+}
+
+/* Header Stili */
+header {
+    background: #35424a; /* Header arka plan rengi */
+    color: #ffffff; /* Yazı rengi */
+    padding: 20px 0; /* Üst ve alt iç boşluk */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Logo ve menü arasındaki boşluğu artır */
+    align-items: center; /* Dikey olarak hizala */
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: auto; /* Ortala */
+}
+
+nav ul {
+    list-style: none; /* Madde işaretlerini kaldır */
+    display: flex; /* Yatay dizilim */
+    padding: 0; /* Padding kaldır */
+}
+
+nav ul li {
+    margin-left: 20px; /* Soldan boşluk */
+}
+
+nav a {
+    color: #ffffff; /* Link rengi */
+    text-decoration: none; /* Alt çizgiyi kaldır */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde alt çizgi ekle */
+}
+
+/* İletişim Bilgileri Stili */
+address {
+    margin-top: 10px; /* Üstten boşluk */
+}
+
+address ul {
+    list-style: none; /* Madde işaretlerini kaldır */
+    padding: 0; /* Padding kaldır */
+}
+
+/* Ana Bölüm Stili */
+main {
+    max-width: 1200px; /* Maksimum genişlik */
+    margin: 20px auto; /* Ortala */
+    padding: 20px; /* İç boşluk */
+    background: #ffffff; /* Beyaz arka plan */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+section {
+    margin-bottom: 40px; /* Alt boşluk */
+}
+
+h1, h2 {
+    color: #35424a; /* Başlık rengi */
+}
+
+button {
+    background: #35424a; /* Buton arka plan rengi */
+    color: #ffffff; /* Buton yazı rengi */
+    border: none; /* Kenarları kaldır */
+    padding: 10px 20px; /* İç boşluk */
+    cursor: pointer; /* İmleç */
+    font-size: 16px; /* Yazı boyutu */
+}
+
+button:hover {
+    background: #455a64; /* Üzerine gelindiğinde arka plan rengi değiştir */
+}
+
+/* Takım Üyeleri Stili */
+#team {
+    display: flex; /* Yatay dizilim */
+    flex-wrap: wrap; /* Satır değiştir */
+    justify-content: space-between; /* Alanı eşit dağıt */
+}
+
+#team li {
+    margin: 10px; /* Boşluk ekle */
+    text-align: center; /* Yazıyı ortala */
+}
+
+/* Footer Stili */
+footer {
+    background: #35424a; /* Arka plan rengi */
+    color: #ffffff; /* Yazı rengi */
+    text-align: center; /* Ortala */
+    padding: 20px 0; /* İç boşluk */
+    position: relative; /* Konum ayarları */
+    bottom: 0; /* Alt kısmı sabitler */
+    width: 100%; /* Tam genişlik */
+}
+
+footer p {
+    margin: 10px 0 0; /* Üstten boşluk, alt boşluk yok */
+}
