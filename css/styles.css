@@ -12,7 +12,7 @@ header {
 }
 
 .web{
-    font-family:  "Railway";
+    font-family:"Raleway";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -35,7 +35,7 @@ nav {
 }
 
 .navsol{
-    font-weight: 5000;
+    font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -69,44 +69,33 @@ nav {
     color:  #404bbf;
 }
 
-
-nav a {
-    text-decoration: none;
-    color: #333;
+.sec-ilk{
+    background-color: #2e2f42;
 }
 
-nav ul {
-    list-style: none;
+.sec-ilk-h1{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
-nav ul li {
-    margin-left: 15px;
+.sec-ilk-buton{
+    background-color:#4D5AE5;
+    font-family: "Roboto", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
 }
 
-address ul {
-    list-style: none;
+.sec-ilk-buton:hover{
+    background-color:#404BBF ;
 }
 
-h1 {
-    font-size: 24px;
+.sec-ilk-buton:focus{
+    background-color: #404BBF;
 }
-
-h2 {
-    font-size: 20px;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-footer {
-    background-color: #2e2f42; /* Arkaplan rengi */
-    color: #fff; /* Metin rengi */
-    text-align: center; /* Ortala */
-}
-
-footer a {
-    color: #4d5ae5; /* Logo rengi */
-    text-decoration: none; /* Alt çizgiyi kaldır */
-}
-
