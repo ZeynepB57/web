@@ -12,7 +12,7 @@ header {
 }
 
 .web{
-    font-family: "Raleway";
+    font-family:  "Railway";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -24,7 +24,7 @@ header {
 
 .studio{
     color: #2e2f42;
-    
+
 }
 
 
@@ -33,6 +33,42 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+.navsol{
+    font-weight: 5000;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color:#2e2f42  ;   
+}
+
+.navsol:hover{
+    color:  #404bbf;
+}
+
+.navsol:focus{
+    color:#404bbf ;
+}
+
+.adres{
+    font-style: normal;
+}
+
+.navsag{
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.navsag:hover{
+    color: #404bbf ;
+}
+
+.navsag:focus{
+    color:  #404bbf;
+}
+
 
 nav a {
     text-decoration: none;
