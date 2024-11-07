@@ -146,3 +146,28 @@ nav {
     letter-spacing: 0.02em;
     color:  #434455;
 }
+
+.sec-dort-baslik{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+
+}
+
+.sec-dort-uyg{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.sec-dort-alan{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
