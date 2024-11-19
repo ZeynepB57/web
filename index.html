@@ -8,25 +8,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Raleway&display=swap" rel="stylesheet"> <!-- Google Fonts -->
     <link rel="stylesheet" href="css/styles.css"> <!-- CSS dosyasını ekliyoruz -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
-    <header>
+    <header class="header">
         <!-- Logo -->
-        <nav>
-            <a class="web" href="./index.html">Web<span class="studio">Studio</span></a>
-            <ul>
-                <li><a class="navsol" href="./index.html">Studio</a></li>
-                <li><a class="navsol" href="">Portfolio</a></li>
-                <li><a class="navsol" href="">Contacts</a></li>
+        <div class="header-div container">
+        <nav class="navbar">
+            <a class="nav-title" href="./index.html">Web<span class="studio">Studio</span></a>
+            <ul class="nav-list">
+                <li><a class="nav-left" href="./index.html">Studio</a></li>
+                <li><a class="nav-left" href="">Portfolio</a></li>
+                <li><a class="nav-left" href="">Contacts</a></li>
             </ul>
         </nav>
         <!-- İletişim bilgileri -->
         <address class="adres">
-            <ul>
-                <li><a class="navsag" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="navsag" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <ul class="address-list">
+                <li><a class="nav-right" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="nav-right" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+    </div>
     </header>
 
     <main>

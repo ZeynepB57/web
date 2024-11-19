@@ -5,23 +5,40 @@ body {
     background-color: #FFFFFF; /* Background color */
 }
 
+img{
+    display: block;
+}
+
 .web, .sec-ilk-h1, .sec-uc-baslik, .sec-dort-baslik {
     font-family: "Raleway", sans-serif;
 }
 
-header {
+.header {
     background-color: #f5f5f5;
-    
+    border-bottom: 1px solid #e7e9fc;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-div{
+    display: flex;
 }
 
-.web{
+.nav-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5 ;
+    margin-right: 76px;
 
+}
+.nav-list{
+    display: flex;
+    gap: 40px;
 }
 
 .studio{
@@ -29,20 +46,25 @@ header {
 
 }
 
+.navbar{
+    display: flex;
+    align-items: center;
+}
 
-.navsol{
+.nav-left{
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
     color:#2e2f42  ;   
+    padding: 24px 0;
 }
 
-.navsol:hover{
+.nav-left:hover{
     color:  #404bbf;
 }
 
-.navsol:focus{
+.nav-left:focus{
     color:#404bbf ;
 }
 
@@ -50,18 +72,23 @@ header {
     font-style: normal;
 }
 
-.navsag{
+.address-list{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-right{
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.navsag:hover{
+.nav-right:hover{
     color: #404bbf ;
 }
 
-.navsag:focus{
+.nav-right:focus{
     color:  #404bbf;
 }
 
