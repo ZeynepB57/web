@@ -46,7 +46,7 @@ img{
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 5px;
+    padding: 0 15px;
 }
 .header-div{
     display: flex;
@@ -216,6 +216,7 @@ img{
 
 .section-third{
     background-color:#f4f4fd ;
+    padding: 120px 0;
 
 }
 .section-third-title{
@@ -225,10 +226,19 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:  #2e2f42;
+    margin-bottom: 72px;
 }
-
+.section-third-ul{
+    display: flex;
+    gap: 24px;
+}
 .section-third-list{
     background-color:  #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.person-info{
+    padding: 32px 0
 }
 .section-third-name{
     font-weight: 500;
@@ -236,12 +246,16 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .section-third-job{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
+    text-align: center;
+    
 }
 
 .section-fourth-title{
