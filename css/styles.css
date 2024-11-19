@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif; /* Default font */
     color: #434455; /* Text color */
@@ -9,13 +17,14 @@ img{
     display: block;
 }
 
-.web, .sec-ilk-h1, .sec-uc-baslik, .sec-dort-baslik {
+.logo, .section-first-title, .section-third-title, .section-fourth-title {
     font-family: "Raleway", sans-serif;
 }
 
 .header {
     background-color: #f5f5f5;
     border-bottom: 1px solid #e7e9fc;
+    height: 72px;
 }
 .container{
     width: 1158px;
@@ -24,6 +33,10 @@ img{
 }
 .header-div{
     display: flex;
+        height: 100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
 }
 
 .logo{
@@ -32,7 +45,7 @@ img{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5 ;
+    color: #4D5AE5;
     margin-right: 76px;
 
 }
@@ -40,6 +53,8 @@ img{
     display: flex;
     gap: 40px;
 }
+
+
 
 .studio{
     color: #2e2f42;
@@ -92,38 +107,59 @@ img{
     color:  #404bbf;
 }
 
-.sec-ilk{
+.section-first{
     background-color: #2e2f42;
+    padding: 188px 0;
+}
+.section-first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
-.sec-ilk-baslik{
+.section-first-title{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
+    margin: 0;
+    
 }
 
-.sec-ilk-buton{
-    background-color:#4D5AE5;
-    font-family: "Roboto", sans-serif ;
+.section-first-button{
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    color:#FFFFFF;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-.sec-ilk-buton:hover{
+.section-first-button:hover{
     background-color:#404BBF ;
 }
 
-.sec-ilk-buton:focus{
+.section-first-button:focus{
     background-color: #404BBF;
 }
 
-.sec-iki-baslik{
+.section-second{
+    padding: 120px 0;
+}
+
+.section-second-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -132,7 +168,7 @@ img{
 
 }
 
-.sec-iki-metin{
+.section-second-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -140,11 +176,11 @@ img{
 
 }
 
-.sec-uc{
+.section-third{
     background-color:#f4f4fd ;
 
 }
-.sec-uc-baslik{
+.section-third-title{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -153,24 +189,24 @@ img{
     color:  #2e2f42;
 }
 
-.sec-uc-liste{
+.section-third-list{
     background-color:  #FFFFFF;
 }
-.sec-uc-isim{
+.section-third-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.sec-uc-meslek{
+.section-third-job{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:  #434455;
 }
 
-.sec-dort-baslik{
+.section-fourth-title{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -180,7 +216,7 @@ img{
 
 }
 
-.sec-dort-uyg{
+.section-fourth-app{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -188,7 +224,7 @@ img{
     color: #2e2f42;
 
 }
-.sec-dort-alan{
+.section-fourth-part{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
