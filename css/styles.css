@@ -428,11 +428,33 @@ img{
     padding: 100px 0;
 }
 
+.footer-div{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.footer-left{
+    margin-right: 120px;
+
+}
+
 .footer-p{
     line-height: 1.5;
     color:  #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+
+.footer-right-p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+
 }
 
 .footer-studio{
