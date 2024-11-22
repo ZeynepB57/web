@@ -346,36 +346,6 @@ img{
 
 }
 
-.social-links {
-    display: flex;
-    gap: 4px;
-    flex-shrink: 0;
-    align-self: flex-end;
-  }
-  
-  .social-links .link{
-      display: flex;
-      justify-content:center;
-      align-items:center;
-      width: 40px;
-      height:40px;
-      border-radius:50%;
-      background-color: #03a9f4;
-      
-  }
-  .social-links .link:hover{
-       background-color:#fff;
-      
-  }
-  
-  .social-links .icon{
-      fill:#fff;
-      
-  }
-  .social-links .link:hover .icon{
-      fill:#03a9f4;
-  }
-
 .section-fourth{
     padding: 120px 0;
 }
