@@ -502,7 +502,7 @@ img{
 
 .form{
     display: flex;
-    gap: 24p;
+    gap: 24px;
 }
 
 .form-input{
@@ -517,6 +517,7 @@ img{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    
 }
 .form-button{
     min-width: 165px;
@@ -535,4 +536,7 @@ img{
     border: none;
     border-radius: 4px;
     
+}
+.form-icon{
+    margin-left: 16px;
 }
