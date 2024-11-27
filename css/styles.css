@@ -490,6 +490,9 @@ img{
     color:  #ffffff;
 }
 
+.footer-form{
+    margin-left: 100px;
+}
 .footer-form-p{
     margin-bottom: 16px;
     font-weight: 500;
@@ -503,6 +506,7 @@ img{
 .form{
     display: flex;
     gap: 24px;
+    
 }
 
 .form-input{
